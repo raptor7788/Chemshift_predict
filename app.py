@@ -20,7 +20,7 @@ def load_attentivefp_model():
     )
     # 加载state_dict
     model.load_state_dict(
-        torch.load("Resources/attentivefp_model.pt", map_location=torch.device("cpu"), weights_only=True))
+        torch.load("Resources/attentivefp_model.pt", map_location="cpu", weights_only=True))
     model.eval()
     return model
 
@@ -88,7 +88,7 @@ def load_gcn_model():
     )
     # Load state_dict
     model.load_state_dict(
-        torch.load("Resources/GCN_model.pt", map_location=torch.device("cpu"), weights_only=True))
+        torch.load("Resources/GCN_model.pt", map_location="cpu", weights_only=True))
     model.eval()
     return model
 

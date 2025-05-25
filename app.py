@@ -97,7 +97,7 @@ def inverse_transform(scaled_value):
     # 使用提供的中心值和缩放因子进行逆变换
     center = 23.47
     scale = 22.69999886
-    return scaled_value * scale + centerss
+    return scaled_value * scale + center  # 修复：centerss 改为 center
 
 
 # Function to predict chemical shift
@@ -272,4 +272,3 @@ elif page == "关于":
         st.info("**Streamlit**\n\n用于构建交互式Web界面")
     with col3:
         st.info("**RDKit**\n\n用于分子处理和SMILES转换")
-

@@ -1,9 +1,28 @@
+# Core ML and Deep Learning
 torch==2.7.0
 torch-geometric==2.6.1
-rdkit==2025.3.2
-matplotlib==3.10.3
-numpy==2.2.6
-pandas==2.2.3
-pillow==11.2.1
 scikit-learn==1.6.1
+scipy==1.11.4
+
+# Data Processing and Analysis
+numpy==1.26.4
+pandas==2.2.3
 joblib==1.5.0
+
+# Chemistry and Molecular Modeling
+rdkit==2025.3.2
+
+# Visualization and Plotting
+matplotlib==3.10.3
+seaborn==0.13.2
+plotly>=5.17.0
+
+# Web Application Framework
+streamlit>=1.28.0
+
+# Image Processing
+pillow==11.2.1
+
+# Optional: Additional utilities
+tqdm>=4.65.0
+requests>=2.31.0

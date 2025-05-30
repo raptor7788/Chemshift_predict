@@ -5,7 +5,7 @@ scikit-learn==1.6.1
 scipy==1.14.1
 
 # Data Processing and Analysis
-numpy==2.1.2
+numpy==1.26.4
 pandas==2.2.3
 joblib==1.5.0
 
@@ -26,3 +26,6 @@ pillow==11.2.1
 # Optional: Additional utilities
 tqdm>=4.65.0
 requests>=2.31.0
+
+# Type Hints Support
+typing-extensions>=4.0.0
